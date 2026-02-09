@@ -1,12 +1,7 @@
 import { ArrowDown, FolderOpen, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden grid-bg pt-16"
-    >
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden grid-bg pt-16">
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background pointer-events-none" />
 
@@ -25,11 +20,7 @@ const HeroSection = () => {
                 Healthcare AI Innovator
               </span>
             </h1>
-            <p className="text-muted-foreground max-w-xl mx-auto lg:mx-0 text-lg leading-relaxed">
-              Final-year AI &amp; ML engineering student passionate about building intelligent
-              systems for healthcare, computer vision, and applied machine learning. Turning
-              data into impact.
-            </p>
+            <p className="text-muted-foreground max-w-xl mx-auto lg:mx-0 text-lg leading-relaxed">Final year AI & ML engineering student passionate about building intelligent systems for healthcare, computer vision, and applied machine learning. Turning data into impact.</p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <Button asChild size="lg" className="gap-2">
                 <a href="#projects">
@@ -50,11 +41,7 @@ const HeroSection = () => {
           <div className="flex-shrink-0">
             <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full glow-border animate-pulse-glow">
               <div className="absolute inset-1 rounded-full bg-secondary flex items-center justify-center overflow-hidden">
-                <img
-                  src="https://i.postimg.cc/gkc036K1/iportfolio.jpg"
-                  alt="Usha B - AI & ML Engineer"
-                  className="w-full h-full object-cover"
-                />
+                <img src="https://i.postimg.cc/gkc036K1/iportfolio.jpg" alt="Usha B - AI & ML Engineer" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -65,8 +52,6 @@ const HeroSection = () => {
           <ArrowDown size={20} />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
