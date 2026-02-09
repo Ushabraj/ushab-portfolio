@@ -49,7 +49,7 @@ const ExperienceSection = () => {
                 <p className="text-muted-foreground">PES Institute of Technology and Management</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Calendar size={14} />
-                  <span>2022 – Present</span>
+                  <span>2023 – Present</span>
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
                   <li>Built ML prediction systems for healthcare applications</li>
