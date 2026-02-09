@@ -50,7 +50,11 @@ const HeroSection = () => {
           <div className="flex-shrink-0">
             <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full glow-border animate-pulse-glow">
               <div className="absolute inset-1 rounded-full bg-secondary flex items-center justify-center overflow-hidden">
-                <span className="text-5xl font-bold text-primary">UB</span>
+                <img
+                  src="https://i.postimg.cc/gkc036K1/iportfolio.jpg"
+                  alt="Usha B - AI & ML Engineer"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
