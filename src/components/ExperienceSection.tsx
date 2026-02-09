@@ -1,10 +1,8 @@
 import { Briefcase, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 const ExperienceSection = () => {
-  return (
-    <section id="experience" className="py-24">
+  return <section id="experience" className="py-24">
       <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           Experience &amp; <span className="text-gradient">Training</span>
@@ -28,7 +26,7 @@ const ExperienceSection = () => {
                 <p className="text-muted-foreground">Palle Technologies</p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   <Calendar size={14} />
-                  <span>2023 – Present</span>
+                  <span>2026 – Present</span>
                 </div>
                 <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
                   <li>Hands-on ML workflows and model evaluation</li>
@@ -63,8 +61,6 @@ const ExperienceSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ExperienceSection;
