@@ -40,7 +40,7 @@ npm run dev
 ```
 
 
-## 🛠 How to Run Locally
+##  How to Run Locally
 
 ```bash
 git clone <your-repo-link>
