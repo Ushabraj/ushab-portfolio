@@ -16,9 +16,7 @@ const HeroSection = () => {
               Hi, I'm{" "}
               <span className="text-gradient">Usha B</span>
               <br />
-              <span className="text-2xl sm:text-3xl lg:text-4xl text-muted-foreground font-medium">
-                Healthcare AI Innovator
-              </span>
+              <span className="text-2xl sm:text-3xl lg:text-4xl text-muted-foreground font-medium">AI Innovator</span>
             </h1>
             <p className="text-muted-foreground max-w-xl mx-auto lg:mx-0 text-lg leading-relaxed">Final year AI & ML engineering student passionate about building intelligent systems for healthcare, computer vision, and applied machine learning. Turning data into impact.</p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
