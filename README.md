@@ -1,6 +1,6 @@
 #  Personal Portfolio Website – Usha B
 
-🔗 Live Portfolio: https://ushab-portfolio.lovable.app
+🔗 Live Portfolio:https://ushab-portfolio.vercel.app/
 
 ##  About the Project
 This is my personal portfolio website built using Lovable AI and modern frontend technologies.  
